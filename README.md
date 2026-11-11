@@ -1,175 +1,310 @@
 🗳️ Carteira Eleitoral Digital
 
+Informação para escolher, ferramentas para participar.
+
 Projeto Interdisciplinar I — Instituto Federal do Paraná (IFPR)
 
-Uma plataforma digital voltada à organização de informações eleitorais, à consulta de fontes oficiais e à participação cidadã por meio de votações personalizadas.
+A Carteira Eleitoral Digital é um projeto acadêmico que propõe o desenvolvimento de um aplicativo mobile Android destinado à organização de informações eleitorais, à consulta de fontes oficiais e ao incentivo à participação cidadã.
+
+A proposta consiste em utilizar a tecnologia como ferramenta de apoio ao cidadão, oferecendo um ambiente digital no qual seja possível reunir informações relevantes sobre o processo eleitoral, organizar anotações pessoais e consultar referências confiáveis antes de tomar decisões.
+
+Além da organização eleitoral, o projeto busca ampliar as possibilidades de utilização da plataforma por meio de um módulo de votações personalizadas, permitindo que diferentes grupos e comunidades criem consultas e participem de decisões coletivas em contextos não eleitorais.
+
+A iniciativa surgiu da percepção de que informações relacionadas às eleições frequentemente estão distribuídas em diferentes plataformas, documentos e canais de comunicação. Essa dispersão pode dificultar a pesquisa, a comparação e a organização das informações utilizadas pelos cidadãos durante o período eleitoral.
+
+Nesse contexto, a Carteira Eleitoral Digital pretende explorar uma alternativa tecnológica que reúna recursos de organização pessoal e participação coletiva em uma única plataforma.
+
+---
 
 📌 Sobre o projeto
 
-A Carteira Eleitoral Digital é uma proposta de aplicação web que busca facilitar a organização de informações durante o período eleitoral, incentivando a pesquisa, o acesso a fontes confiáveis e a autonomia do eleitor.
+A Carteira Eleitoral Digital não tem como finalidade substituir os sistemas oficiais de votação ou os serviços disponibilizados pela Justiça Eleitoral.
 
-Além da organização eleitoral, o projeto propõe ampliar o uso da plataforma para permitir a criação de votações personalizadas ao longo do ano, atendendo a diferentes contextos, como condomínios, bairros, empresas e grupos comunitários.
+Sua proposta é funcionar como uma ferramenta complementar de organização e consulta, permitindo que cada usuário mantenha suas próprias referências e anotações de maneira independente.
 
-A iniciativa surgiu da observação de dificuldades relacionadas à dispersão de informações sobre candidaturas, ao uso de materiais impressos e à necessidade de organizar escolhas de maneira prática e acessível.
+O aplicativo será estruturado em dois grandes módulos:
+
+1. Organização eleitoral
+
+Voltado ao período eleitoral, esse módulo busca facilitar a organização das informações utilizadas pelo cidadão durante sua pesquisa sobre candidaturas.
+
+Entre as possibilidades estão:
+
+- Consulta de links e referências de fontes oficiais.
+- Organização de informações sobre candidaturas.
+- Registro de anotações pessoais.
+- Criação de uma lista digital para organização das escolhas eleitorais.
+- Acesso facilitado às informações previamente registradas.
+
+2. Votações personalizadas
+
+Voltado à participação coletiva, esse módulo propõe permitir que usuários criem votações para diferentes finalidades e contextos sociais.
+
+A funcionalidade busca oferecer uma maneira simples de organizar consultas, compartilhar perguntas e visualizar resultados, sem a necessidade de utilizar ferramentas diferentes para cada situação.
+
+Exemplos de aplicação:
+
+- Condomínios: escolha de melhorias, prioridades e decisões internas.
+- Bairros: levantamento de necessidades e iniciativas comunitárias.
+- Empresas: pesquisas internas e decisões de equipes.
+- Instituições de ensino: consultas e enquetes entre estudantes.
+- Comunidades: participação em decisões e discussões coletivas.
+
+As votações personalizadas possuem finalidade consultiva e informal. Não substituem eleições oficiais, assembleias com exigências legais ou processos que demandem mecanismos específicos de autenticação e auditoria.
+
+---
 
 🎯 Objetivos
 
 Objetivo geral
 
-Desenvolver e avaliar um protótipo de plataforma digital que auxilie na organização de informações eleitorais e explore possibilidades de participação por meio de votações personalizadas.
+Desenvolver e avaliar um protótipo de aplicativo mobile Android que auxilie na organização de informações eleitorais, facilite o acesso a fontes oficiais e explore possibilidades de participação cidadã por meio de votações personalizadas.
 
 Objetivos específicos
 
-- Investigar como as pessoas pesquisam e organizam informações eleitorais.
-- Identificar dificuldades no acesso a informações públicas sobre candidaturas.
-- Desenvolver uma interface simples, intuitiva e responsiva.
+- Investigar os hábitos dos cidadãos na pesquisa e organização de informações eleitorais.
+- Identificar dificuldades relacionadas à dispersão de informações sobre candidaturas.
+- Desenvolver uma interface mobile simples, intuitiva e acessível.
 - Facilitar o acesso a fontes oficiais de informação eleitoral.
-- Oferecer recursos conceituais para anotações pessoais e organização das escolhas.
-- Propor funcionalidades para criação de votações personalizadas.
-- Avaliar a usabilidade e a percepção de utilidade da plataforma.
-- Investigar possíveis contribuições para a redução do uso de materiais impressos no grupo estudado.
-
-✨ Funcionalidades propostas
-
-🗳️ Organização eleitoral
-
-- Acesso a links de fontes oficiais, como o Tribunal Superior Eleitoral (TSE).
-- Organização de informações e anotações pessoais.
-- Proposta de uma lista digital para consulta das escolhas eleitorais.
-- Interface voltada à autonomia e à organização do eleitor.
-
-📊 Votações personalizadas
-
-A plataforma também propõe um espaço para criação de votações destinadas a diferentes grupos e comunidades.
-
-Exemplos de utilização:
-
-- Condomínios: escolha de melhorias e prioridades.
-- Bairros: consultas sobre necessidades e iniciativas locais.
-- Empresas: pesquisas internas e decisões de equipe.
-- Comunidades: consultas e discussões sobre assuntos coletivos.
-
-Entre as funcionalidades planejadas estão a criação de perguntas, definição de opções, compartilhamento da votação, configuração do período de participação e consulta dos resultados.
-
-«Estado atual: as votações apresentadas no protótipo são demonstrativas. O registro de votos, a autenticação de participantes e a persistência dos dados dependem de desenvolvimento adicional.»
-
-🛡️ Princípios e responsabilidades
-
-O projeto considera os seguintes princípios:
-
-- Neutralidade eleitoral: a plataforma não deve recomendar candidatos, partidos ou posições políticas.
-- Autonomia: cada usuário mantém suas próprias escolhas.
-- Transparência: as regras de participação e apresentação dos resultados devem ser claras.
-- Privacidade: o desenvolvimento futuro deverá considerar a proteção dos dados pessoais.
-- Fontes confiáveis: informações eleitorais devem direcionar o usuário a fontes oficiais sempre que possível.
-- Uso responsável: votações informais não substituem eleições oficiais ou processos que exijam procedimentos e validações legais específicos.
-
-🧰 Tecnologias utilizadas
-
-O protótipo de apresentação utiliza tecnologias web básicas:
-
-Tecnologia| Finalidade
-HTML5| Estruturação do conteúdo
-CSS3| Estilização, layout e responsividade
-JavaScript| Interações da interface
-Git| Controle de versão
-GitHub| Hospedagem do repositório e colaboração
-
-A arquitetura atual é de um protótipo front-end. A implementação de um back-end e de um banco de dados poderá ser considerada nas próximas etapas.
-
-🚀 Como executar o projeto
-
-Pré-requisitos
-
-- Um navegador atualizado.
-- Git, caso deseje clonar o repositório.
-- Um editor de código, como o Visual Studio Code (opcional).
-
-1. Clone o repositório
-
-Substitua "SEU-USUARIO" pelo nome de usuário ou organização responsável pelo repositório.
-
-git clone https://github.com/SEU-USUARIO/carteira-eleitoral-digital.git
-
-2. Entre na pasta do projeto
-
-cd carteira-eleitoral-digital
-
-3. Abra a aplicação
-
-Abra o arquivo "index.html" diretamente no navegador.
-
-Opcionalmente, utilize a extensão Live Server no Visual Studio Code para visualizar as alterações durante o desenvolvimento.
-
-Observação: o protótipo não exige instalação de dependências ou configuração de servidor para sua apresentação básica.
-
-📁 Estrutura do projeto
-
-carteira-eleitoral-digital/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-- "index.html": estrutura e conteúdo das seções da página.
-- "style.css": identidade visual, estilos e adaptação para diferentes telas.
-- "script.js": interações da interface e demonstração visual de votação.
-- "README.md": documentação do projeto.
-
-🔬 Metodologia
-
-O desenvolvimento acadêmico está organizado nas seguintes etapas:
-
-1. Pesquisa: revisão bibliográfica e investigação dos hábitos dos usuários.
-2. Coleta de dados: aplicação de formulário sobre pesquisa eleitoral e materiais impressos.
-3. Análise: interpretação dos dados e identificação dos principais problemas.
-4. Levantamento de requisitos: definição das funcionalidades prioritárias.
-5. Prototipação: criação da interface e implementação do protótipo.
-6. Testes: avaliação de usabilidade e coleta de feedback.
-7. Conclusão: análise dos resultados e identificação de melhorias futuras.
-
-📈 Critérios de avaliação
-
-A avaliação da proposta poderá considerar:
-
-- Tempo necessário para encontrar e organizar informações.
-- Facilidade de uso da interface.
-- Satisfação e percepção de utilidade dos participantes.
-- Intenção de utilizar ferramentas digitais em substituição a anotações impressas.
-- Clareza das regras e da experiência de participação nas votações personalizadas.
-
-As conclusões deverão ser baseadas nos dados efetivamente coletados durante a pesquisa.
-
-🗺️ Próximas etapas
-
-- [ ] Aplicar o formulário de pesquisa com os participantes.
-- [ ] Analisar os dados obtidos.
-- [ ] Definir e priorizar os requisitos funcionais.
-- [ ] Aperfeiçoar os protótipos das telas.
-- [ ] Implementar e testar o MVP.
-- [ ] Avaliar a experiência com usuários.
-- [ ] Estudar a implementação de autenticação e banco de dados.
-- [ ] Definir regras de privacidade, participação e apuração para votações personalizadas.
-- [ ] Documentar os resultados e as limitações da pesquisa.
-
-🌐 Referências
-
-- "Tribunal Superior Eleitoral — TSE" (https://www.tse.jus.br/): referência oficial para informações relacionadas às eleições brasileiras.
-- "Documentação do Git" (https://git-scm.com/doc): referência para controle de versão.
-- "Documentação do GitHub" (https://docs.github.com/pt): referência para hospedagem e colaboração em projetos.
-
-👥 Equipe
-
-Projeto desenvolvido no contexto da disciplina Projeto Interdisciplinar I, do Instituto Federal do Paraná (IFPR).
-
-Integrantes: adicionar os nomes dos integrantes do grupo.
-
-Orientador(a): adicionar o nome do(a) professor(a), se aplicável.
-
-📄 Licença
-
-A licença de distribuição ainda deve ser definida pela equipe. Antes de adicionar uma licença ao repositório, os integrantes devem decidir como o código e os demais materiais poderão ser utilizados, modificados e redistribuídos.
+- Proporcionar recursos para registro de anotações e organização das escolhas individuais.
+- Explorar a criação e o gerenciamento de votações personalizadas.
+- Permitir a consulta e a visualização dos resultados das votações.
+- Avaliar a usabilidade e a percepção de utilidade do aplicativo.
+- Investigar possíveis contribuições da solução para a redução do uso de materiais impressos no grupo estudado.
+- Identificar oportunidades de evolução tecnológica para futuras versões da plataforma.
 
 ---
 
-Carteira Eleitoral Digital — informação para escolher, ferramentas para participar.
+💡 Problema identificado e justificativa
+
+Durante o período eleitoral, os cidadãos podem precisar consultar diferentes fontes para obter informações sobre candidatos, propostas, partidos e outros aspectos relacionados às eleições.
+
+Essas informações nem sempre estão organizadas em um único ambiente, fazendo com que o usuário precise alternar entre sites, documentos, redes sociais e anotações pessoais.
+
+Essa situação pode dificultar a organização das informações e tornar o processo de pesquisa menos prático.
+
+Outro aspecto considerado pelo projeto é a utilização de materiais impressos e anotações físicas para registrar informações e organizar escolhas.
+
+A proposta da Carteira Eleitoral Digital é investigar se um aplicativo mobile pode oferecer uma alternativa mais prática para essa organização, reunindo funcionalidades de consulta e registro em um ambiente digital.
+
+A inclusão do módulo de votações personalizadas amplia essa proposta, explorando o potencial da tecnologia para facilitar a participação de pessoas em decisões coletivas do cotidiano.
+
+Dessa forma, o projeto se justifica pela possibilidade de desenvolver uma solução tecnológica que integre organização da informação, autonomia individual e participação social.
+
+---
+
+✨ Funcionalidades propostas
+
+🗳️ Módulo de organização eleitoral
+
+Responsável por disponibilizar recursos para consulta e organização de informações relacionadas ao processo eleitoral.
+
+Funcionalidades planejadas:
+
+- Fontes oficiais: acesso facilitado a plataformas institucionais, especialmente aos serviços do Tribunal Superior Eleitoral (TSE).
+- Organização de candidaturas: possibilidade de reunir informações relevantes sobre candidatos.
+- Anotações pessoais: registro de observações e informações consideradas importantes pelo usuário.
+- Lista de escolhas: organização individual das opções eleitorais para consulta posterior.
+- Navegação intuitiva: acesso simplificado às funcionalidades por meio de uma interface mobile.
+
+📊 Módulo de votações personalizadas
+
+Responsável por oferecer ferramentas para criação e participação em consultas coletivas.
+
+Funcionalidades planejadas:
+
+- Criação de votações personalizadas.
+- Definição de perguntas e alternativas.
+- Configuração de período de participação.
+- Compartilhamento de votações.
+- Participação dos usuários nas consultas.
+- Visualização dos resultados.
+- Organização das votações criadas e disponíveis.
+
+Estado de desenvolvimento: as funcionalidades descritas representam a proposta do projeto. Os recursos que dependem de autenticação, armazenamento permanente, gerenciamento de participantes e registro de votos deverão ser implementados e validados nas próximas etapas.
+
+---
+
+🛡️ Princípios e responsabilidades
+
+O desenvolvimento da Carteira Eleitoral Digital considera princípios importantes para garantir uma experiência responsável e transparente.
+
+Neutralidade eleitoral
+
+O aplicativo não deve recomendar candidatos, partidos políticos ou posicionamentos ideológicos. Sua finalidade é oferecer ferramentas de organização e acesso à informação.
+
+Autonomia do usuário
+
+Cada cidadão será responsável por suas próprias pesquisas, anotações e decisões. O aplicativo não deverá interferir nas escolhas individuais.
+
+Transparência
+
+As funcionalidades, regras de participação e formas de apresentação dos resultados deverão ser claras para os usuários.
+
+Privacidade e proteção de dados
+
+A evolução do projeto deverá considerar a Lei Geral de Proteção de Dados Pessoais (LGPD), especialmente no tratamento de informações pessoais, identificação de participantes e armazenamento de dados.
+
+Confiabilidade das informações
+
+Sempre que possível, o aplicativo deverá direcionar os usuários a fontes oficiais e institucionais, evitando apresentar informações sem procedência identificável.
+
+Responsabilidade nas votações
+
+As votações personalizadas terão caráter consultivo e não deverão ser apresentadas como mecanismos oficiais de votação ou apuração eleitoral.
+
+---
+
+📱 Plataforma e tecnologias
+
+A Carteira Eleitoral Digital será desenvolvida como um aplicativo mobile para o sistema operacional Android.
+
+A escolha dessa plataforma busca proporcionar uma experiência adaptada a dispositivos móveis, permitindo que os usuários acessem as funcionalidades diretamente pelo smartphone.
+
+O desenvolvimento será realizado utilizando ferramentas e tecnologias do ecossistema Android.
+
+Tecnologias previstas
+
+Tecnologia| Aplicação no projeto
+Android Studio| Ambiente de desenvolvimento integrado (IDE).
+Kotlin| Linguagem de programação principal do aplicativo.
+Jetpack Compose| Construção das interfaces gráficas e componentes visuais.
+Git| Controle de versão e acompanhamento das alterações.
+GitHub| Hospedagem do código-fonte e colaboração entre integrantes.
+
+Arquitetura e evolução tecnológica
+
+Inicialmente, o desenvolvimento terá foco na construção da interface, organização das telas, navegação e implementação das funcionalidades prioritárias.
+
+Em etapas posteriores, poderão ser incorporados:
+
+- Back-end para gerenciamento das operações da plataforma.
+- Banco de dados para armazenamento persistente.
+- Sistema de autenticação e gerenciamento de usuários.
+- APIs para comunicação entre o aplicativo e os serviços externos.
+- Mecanismos de controle de participação nas votações.
+- Recursos de segurança e proteção de dados.
+
+A definição dessas tecnologias complementares dependerá dos requisitos identificados durante a pesquisa e do planejamento da implementação do MVP (Produto Mínimo Viável).
+
+---
+
+🔬 Metodologia de desenvolvimento
+
+O desenvolvimento do projeto está organizado em etapas que integram pesquisa acadêmica, levantamento de requisitos, desenvolvimento de software e avaliação da experiência dos usuários.
+
+1. Pesquisa e fundamentação teórica
+
+Levantamento bibliográfico sobre participação cidadã, comportamento eleitoral, organização da informação e utilização de ferramentas digitais em processos de decisão.
+
+2. Coleta de dados
+
+Aplicação de formulários para investigar como os participantes pesquisam informações eleitorais, quais dificuldades encontram e quais ferramentas utilizam para organizar suas escolhas.
+
+3. Análise dos resultados
+
+Interpretação dos dados coletados para identificar necessidades, dificuldades e oportunidades de melhoria que possam orientar o desenvolvimento da aplicação.
+
+4. Levantamento de requisitos
+
+Definição dos requisitos funcionais e não funcionais, considerando as necessidades dos usuários e as limitações técnicas do projeto.
+
+5. Prototipação e desenvolvimento
+
+Construção das interfaces, definição da identidade visual, implementação da navegação e desenvolvimento das funcionalidades prioritárias utilizando Android Studio.
+
+6. Testes e validação
+
+Realização de testes funcionais e avaliações de usabilidade para identificar problemas de navegação, compreensão e utilização das funcionalidades.
+
+7. Análise e conclusão
+
+Avaliação dos resultados obtidos, comparação com os objetivos estabelecidos e identificação de melhorias para futuras versões do aplicativo.
+
+---
+
+📈 Critérios de avaliação
+
+A avaliação da Carteira Eleitoral Digital deverá considerar tanto os aspectos técnicos quanto a percepção dos usuários.
+
+Entre os critérios propostos estão:
+
+- Facilidade de navegação entre as telas.
+- Tempo necessário para localizar e organizar informações.
+- Clareza das informações apresentadas.
+- Facilidade de utilização das ferramentas de anotação.
+- Percepção de utilidade do módulo eleitoral.
+- Facilidade de criação e participação em votações.
+- Satisfação dos participantes durante os testes.
+- Interesse na utilização de ferramentas digitais em substituição a anotações impressas.
+
+Os resultados deverão ser fundamentados nos dados efetivamente coletados durante a pesquisa e nos testes realizados com os participantes.
+
+---
+
+🗺️ Próximas etapas
+
+O desenvolvimento seguirá um planejamento incremental, priorizando as funcionalidades essenciais para a construção do MVP.
+
+- [ ] Aplicar o formulário de pesquisa com os participantes.
+- [ ] Organizar e analisar os dados coletados.
+- [ ] Definir os requisitos funcionais e não funcionais.
+- [ ] Priorizar as funcionalidades do MVP.
+- [ ] Definir a arquitetura inicial do aplicativo Android.
+- [ ] Desenvolver as interfaces utilizando Jetpack Compose.
+- [ ] Implementar a navegação entre as telas.
+- [ ] Desenvolver o módulo de organização eleitoral.
+- [ ] Desenvolver o módulo de votações personalizadas.
+- [ ] Avaliar a necessidade de back-end e banco de dados.
+- [ ] Implementar autenticação e persistência de dados, conforme os requisitos.
+- [ ] Realizar testes funcionais e de usabilidade.
+- [ ] Documentar os resultados e as limitações do projeto.
+
+---
+
+📚 Referências bibliográficas e técnicas
+
+Fundamentação acadêmica
+
+- IZUMI, Mauricio Yoshida. "Artigo acadêmico — DOI: 10.1590/1807-0191201925129" (https://doi.org/10.1590/1807-0191201925129).
+- "Artigo acadêmico — DOI: 10.1590/S0102-64451992000200003" (https://doi.org/10.1590/S0102-64451992000200003).
+
+Referências institucionais e tecnológicas
+
+- "Tribunal Superior Eleitoral (TSE)" (https://www.tse.jus.br/).
+- "Android Developers — Documentação oficial" (https://developer.android.com/).
+- "Kotlin — Documentação oficial" (https://kotlinlang.org/docs/home.html).
+- "Jetpack Compose — Documentação oficial" (https://developer.android.com/develop/ui/compose).
+- "Git — Documentação oficial" (https://git-scm.com/doc).
+- "GitHub — Documentação oficial" (https://docs.github.com/pt).
+
+---
+
+👥 Equipe de desenvolvimento
+
+Projeto desenvolvido no contexto da disciplina Projeto Interdisciplinar I, do Instituto Federal do Paraná (IFPR).
+
+Integrantes:
+
+- Vitor Alves Monteiro
+- Lucas Gabriel Zolrze
+
+Instituição: Instituto Federal do Paraná (IFPR).
+
+Orientador(a): a definir.
+
+---
+
+📄 Licença
+
+A licença de distribuição do projeto ainda será definida pelos integrantes da equipe.
+
+A definição deverá estabelecer as condições de utilização, modificação e redistribuição do código-fonte e dos materiais produzidos.
+
+---
+
+<p align="center">🗳️ Carteira Eleitoral Digital
+
+Informação para escolher, ferramentas para participar.
+
+Desenvolvido como projeto acadêmico no Instituto Federal do Paraná — IFPR.
